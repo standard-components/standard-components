@@ -79,11 +79,14 @@ Some components, such as Buttons, use style variants to render different
 versions, such as `primary` and `secondary` Button styles.
 Variants should be handled with a `variant` prop, with shorthand boolean props for `primary` and `secondary` variants.
 
+See [Props](PROPS.md) for more.
 
 ## Themes
 
 Themes are objects that define the values used by style props.
 Themes ensure consistent margin, padding, colors, font sizes, and other UI constants.
+
+See [Themes](THEMES.md) for more.
 
 
 ## Component Types
@@ -120,8 +123,12 @@ Position components remove their children from the normal document flow and shou
 ## Related
 
 - [styled-system][sys]
+- [rebass](https://github.com/jxnblk/rebass)
+- [grid-styled](https://github.com/jxnblk/grid-styled)
 
-[Made by Compositor][c8r] | [MIT License](LICENSE.md)
+---
+
+[Made by Compositor][c8r] | [GitHub](https://github.com/standard-components/standard-components) | [MIT License](LICENSE.md)
 
 [c8r]: https://compositor.io
 [sys]: https://github.com/jxnblk/styled-system

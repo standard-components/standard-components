@@ -13,5 +13,15 @@
     "styled-system"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ok README.md -o",
+    "build": "ok README.md -d site --static"
+  },
+  "devDependencies": {
+    "grid-styled": "^3.2.1",
+    "ok-cli": "^1.0.0-11",
+    "react": "^16.3.1",
+    "styled-components": "^3.2.5"
+  }
 }
