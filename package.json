@@ -1,0 +1,17 @@
+{
+  "name": "standard-components",
+  "version": "1.0.0-0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "components",
+    "react",
+    "standard",
+    "ui",
+    "design-system",
+    "style",
+    "styled-system"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT"
+}
