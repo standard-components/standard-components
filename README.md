@@ -1,4 +1,6 @@
 
+<img src='https://compositor.io/logo/dist/standard.png' width='128' height='128' />
+
 # Standard Components
 
 A specification for functional UI components
