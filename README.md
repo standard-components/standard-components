@@ -3,6 +3,11 @@
 
 A specification for functional UI components
 
+[![standard-components][badge]][std]
+
+[badge]: https://img.shields.io/badge/standard-components-blue.svg?style=flat-square
+[std]: https://github.com/standard-components/standard-components
+
 https://standard-components.com
 
 ## Motivation
@@ -79,14 +84,10 @@ Some components, such as Buttons, use style variants to render different
 versions, such as `primary` and `secondary` Button styles.
 Variants should be handled with a `variant` prop, with shorthand boolean props for `primary` and `secondary` variants.
 
-See [Props](PROPS.md) for more.
-
 ## Themes
 
 Themes are objects that define the values used by style props.
 Themes ensure consistent margin, padding, colors, font sizes, and other UI constants.
-
-See [Themes](THEMES.md) for more.
 
 
 ## Component Types
@@ -125,6 +126,8 @@ Position components remove their children from the normal document flow and shou
 - [styled-system][sys]
 - [rebass](https://github.com/jxnblk/rebass)
 - [grid-styled](https://github.com/jxnblk/grid-styled)
+- [react-primitives](https://github.com/lelandrichardson/react-primitives)
+- [React Native for Web](https://github.com/necolas/react-native-web/)
 
 ---
 
