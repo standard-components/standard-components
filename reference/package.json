@@ -1,0 +1,32 @@
+{
+  "name": "standard-components",
+  "version": "1.0.0",
+  "description": "A reference implementation of Standard Components",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "babel src -d dist",
+    "start": "kit examples --open --mode library",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "clean-tag": "^1.0.4",
+    "react": "^16.3.2",
+    "styled-components": "^3.2.6",
+    "styled-system": "^2.2.5"
+  },
+  "devDependencies": {
+    "@compositor/kit-dev": "^1.0.17",
+    "@compositor/kit-snapshot": "^1.0.18",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.4.3",
+    "jest-styled-components": "^5.0.1"
+  },
+  "kit": {}
+}

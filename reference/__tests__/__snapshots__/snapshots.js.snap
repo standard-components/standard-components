@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackgroundImage renders 1`] = `null`;
+
+exports[`Box renders 1`] = `null`;
+
+exports[`BoxColor renders 1`] = `null`;
+
+exports[`Button renders 1`] = `null`;
+
+exports[`Flex renders 1`] = `null`;
+
+exports[`Heading renders 1`] = `null`;
+
+exports[`Image renders 1`] = `null`;
+
+exports[`Link renders 1`] = `null`;
+
+exports[`Text renders 1`] = `null`;

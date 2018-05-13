@@ -1,0 +1,5 @@
+src
+examples
+test
+__tests__
+.babelrc
