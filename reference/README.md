@@ -1,8 +1,13 @@
 
-# Standard Components Reference
+<img src='https://compositor.io/logo/dist/standard.png' width='128' height='128' />
+
+# Standard Components
 
 A reference implementation of [Standard Components][std]
 
+[![standard-components][badge]][std]
+
+[badge]: https://img.shields.io/badge/standard-components-blue.svg?style=flat-square&longCache=true
 [std]: https://github.com/standard-components/standard-components
 
 ```sh

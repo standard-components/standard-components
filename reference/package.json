@@ -1,6 +1,6 @@
 {
   "name": "standard-components",
-  "version": "1.0.0",
+  "version": "1.0.0-2",
   "description": "A reference implementation of Standard Components",
   "main": "dist/index.js",
   "scripts": {
