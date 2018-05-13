@@ -5,7 +5,7 @@ A specification for functional UI components
 
 [![standard-components][badge]][std]
 
-[badge]: https://img.shields.io/badge/standard-components-blue.svg?style=flat-square
+[badge]: https://img.shields.io/badge/standard-components-blue.svg?style=flat-square&longCache=true
 [std]: https://github.com/standard-components/standard-components
 
 https://standard-components.com
