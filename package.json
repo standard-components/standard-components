@@ -1,28 +1,17 @@
 {
-  "name": "standard-components",
   "private": true,
-  "version": "1.0.0-0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [
-    "components",
-    "react",
-    "standard",
-    "ui",
-    "design-system",
-    "style",
-    "styled-system"
-  ],
-  "author": "Brent Jackson",
-  "license": "MIT",
   "scripts": {
-    "start": "ok README.md -o",
-    "build": "ok README.md -d site --static"
+    "start": "x0 docs/App.js -o",
+    "build": "x0 build docs/App.js --static -d docs"
   },
   "devDependencies": {
-    "grid-styled": "^3.2.1",
-    "ok-cli": "^1.0.0-11",
+    "@compositor/kit": "^1.0.17",
+    "@compositor/logo": "^1.3.5",
+    "@compositor/x0": "^4.0.2",
     "react": "^16.3.1",
-    "styled-components": "^3.2.5"
+    "standard-components": "^1.0.0-2"
+  },
+  "x0": {
+    "cssLibrary": "styled-components"
   }
 }

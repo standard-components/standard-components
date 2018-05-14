@@ -65,6 +65,7 @@ Heading.displayName = 'Heading'
 
 Heading.defaultProps = {
   is: 'h2',
+  m: 0,
   fontSize: 4,
   fontWeight: 'bold',
   lineHeight: 1.25

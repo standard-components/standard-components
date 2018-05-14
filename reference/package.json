@@ -8,7 +8,15 @@
     "start": "kit examples --open --mode library",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "components",
+    "react",
+    "standard",
+    "ui",
+    "design-system",
+    "style",
+    "styled-system"
+  ],
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
