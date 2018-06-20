@@ -1,0 +1,29 @@
+{
+  "name": "@standard/styled-components",
+  "description": "Standard Components using Styled Components",
+  "version": "0.0.1-0",
+  "author": "John Otander",
+  "main": "dist",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "standard-components",
+    "styled-components",
+    "react"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "styled-components": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.1.0",
+    "jest-styled-components": "^5.0.1",
+    "react-test-renderer": "^16.4.1",
+    "styled-components": "^3.3.2"
+  }
+}
