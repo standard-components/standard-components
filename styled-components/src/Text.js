@@ -12,15 +12,15 @@ import {
 } from 'styled-system'
 
 const Text = ({ is, ...props }) => {
-  const Component = styled(is)`
-    ${color}
-    ${fontFamily}
-    ${fontSize}
-    ${fontWeight}
-    ${letterSpacing}
-    ${lineHeight}
-    ${textAlign}
-  `
+  const Component = styled(is)([],
+    color,
+    fontFamily,
+    fontSize,
+    fontWeight,
+    letterSpacing,
+    lineHeight,
+    textAlign
+  )
 
   return el(Component, props)
 }
