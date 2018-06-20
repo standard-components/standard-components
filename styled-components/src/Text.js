@@ -1,5 +1,6 @@
-import React, { createElement as el } from 'react'
 import styled from 'styled-components'
+import tag from 'clean-tag'
+
 import {
   color,
   fontFamily,
@@ -11,19 +12,16 @@ import {
   propTypes
 } from 'styled-system'
 
-const Text = ({ is, ...props }) => {
-  const Component = styled(is)([],
-    color,
-    fontFamily,
-    fontSize,
-    fontWeight,
-    letterSpacing,
-    lineHeight,
-    textAlign
-  )
-
-  return el(Component, props)
-}
+const Text = styled(tag.p)(
+  [],
+  color,
+  fontFamily,
+  fontSize,
+  fontWeight,
+  letterSpacing,
+  lineHeight,
+  textAlign
+)
 
 Text.displayName = 'Text'
 Text.propTypes = {
