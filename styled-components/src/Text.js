@@ -30,8 +30,7 @@ Text.propTypes = {
   ...propTypes.fontWeight,
   ...propTypes.letterSpacing,
   ...propTypes.lineHeight,
-  ...propTypes.textAlign,
-  ...propTypes.propTypes
+  ...propTypes.textAlign
 }
 Text.defaultProps = {
   is: 'p'
