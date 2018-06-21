@@ -6,7 +6,8 @@ const Heading = styled(Text)([])
 
 Heading.displayName = 'Heading'
 Heading.defaultProps = {
-  is: 'h3'
+  is: 'h3',
+  m: 0
 }
 
 export default Heading

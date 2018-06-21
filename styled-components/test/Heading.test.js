@@ -8,6 +8,7 @@ test('renders an h3', () => {
   const result = render(<Heading>Hello, world</Heading>).toJSON()
 
   expect(result.type).toBe('h3')
+  expect(result).toHaveStyleRule('margin', '0px')
 })
 
 test('accepts props for styling', () => {

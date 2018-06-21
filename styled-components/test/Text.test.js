@@ -8,6 +8,7 @@ test('renders a paragraph', () => {
   const result = render(<Text>Hello, world</Text>).toJSON()
 
   expect(result.type).toBe('p')
+  expect(result).toHaveStyleRule('margin', '0px')
 })
 
 test('accepts props for styling', () => {

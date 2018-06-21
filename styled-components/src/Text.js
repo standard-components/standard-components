@@ -26,6 +26,9 @@ const Text = styled(tag.p)(
 )
 
 Text.displayName = 'Text'
+Text.defaultProps = {
+  m: 0
+}
 Text.propTypes = {
   ...propTypes.fontFamily,
   ...propTypes.fontSize,
