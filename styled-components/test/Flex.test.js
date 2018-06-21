@@ -4,7 +4,7 @@ import 'jest-styled-components'
 
 import { Flex } from '../src'
 
-test('renders a paragraph', () => {
+test('renders a div with display flex', () => {
   const result = render(<Flex>Hello, world</Flex>).toJSON()
 
   expect(result.type).toBe('div')

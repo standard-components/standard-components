@@ -4,7 +4,7 @@ import 'jest-styled-components'
 
 import { Heading } from '../src'
 
-test('renders an h3', () => {
+test('renders an h3 with no margin', () => {
   const result = render(<Heading>Hello, world</Heading>).toJSON()
 
   expect(result.type).toBe('h3')

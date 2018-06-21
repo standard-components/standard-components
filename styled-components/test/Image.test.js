@@ -4,7 +4,7 @@ import 'jest-styled-components'
 
 import { Image } from '../src'
 
-test('renders a paragraph', () => {
+test('renders an image', () => {
   const result = render(<Image src="foo.png" />).toJSON()
 
   expect(result.type).toBe('img')

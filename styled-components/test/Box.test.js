@@ -4,7 +4,7 @@ import 'jest-styled-components'
 
 import { Box } from '../src'
 
-test('renders a paragraph', () => {
+test('renders a div', () => {
   const result = render(<Box>Hello, world</Box>).toJSON()
 
   expect(result.type).toBe('div')
