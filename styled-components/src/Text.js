@@ -8,6 +8,7 @@ import {
   fontWeight,
   letterSpacing,
   lineHeight,
+  space,
   textAlign,
   propTypes
 } from 'styled-system'
@@ -20,6 +21,7 @@ const Text = styled(tag.p)(
   fontWeight,
   letterSpacing,
   lineHeight,
+  space,
   textAlign
 )
 
@@ -30,6 +32,7 @@ Text.propTypes = {
   ...propTypes.fontWeight,
   ...propTypes.letterSpacing,
   ...propTypes.lineHeight,
+  ...propTypes.space,
   ...propTypes.textAlign
 }
 
