@@ -30,13 +30,13 @@ Text.defaultProps = {
   m: 0
 }
 Text.propTypes = {
-  ...propTypes.fontFamily,
-  ...propTypes.fontSize,
-  ...propTypes.fontWeight,
-  ...propTypes.letterSpacing,
-  ...propTypes.lineHeight,
-  ...propTypes.space,
-  ...propTypes.textAlign
+  ...fontFamily.propTypes,
+  ...fontSize.propTypes,
+  ...fontWeight.propTypes,
+  ...letterSpacing.propTypes,
+  ...lineHeight.propTypes,
+  ...space.propTypes,
+  ...textAlign.propTypes
 }
 
 export default Text

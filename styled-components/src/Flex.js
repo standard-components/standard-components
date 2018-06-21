@@ -23,12 +23,12 @@ const Flex = styled(tag.div)(
 
 Flex.displayName = 'Flex'
 Flex.propTypes = {
-  ...propTypes.alignItems,
-  ...propTypes.flexWrap,
-  ...propTypes.flexDirection,
-  ...propTypes.justifyContent,
-  ...propTypes.space,
-  ...propTypes.width
+  ...alignItems.propTypes,
+  ...flexWrap.propTypes,
+  ...flexDirection.propTypes,
+  ...justifyContent.propTypes,
+  ...space.propTypes,
+  ...width.propTypes
 }
 
 export default Flex

@@ -15,8 +15,8 @@ const Box = styled(tag.div)(
 
 Box.displayName = 'Box'
 Box.propTypes = {
-  ...propTypes.space,
-  ...propTypes.width,
+  ...space.propTypes,
+  ...width.propTypes
 }
 
 export default Box
