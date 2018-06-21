@@ -7,8 +7,7 @@ import {
   flexDirection,
   justifyContent,
   space,
-  width,
-  propTypes
+  width
 } from 'styled-system'
 
 const Flex = styled(tag.div)(

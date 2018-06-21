@@ -9,8 +9,7 @@ import {
   letterSpacing,
   lineHeight,
   space,
-  textAlign,
-  propTypes
+  textAlign
 } from 'styled-system'
 
 const Text = styled(tag.p)(

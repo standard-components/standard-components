@@ -6,16 +6,16 @@ import {
   width
 } from 'styled-system'
 
-const Box = styled(tag.div)(
+const Image = styled(tag.img)(
   [],
   space,
   width
 )
 
-Box.displayName = 'Box'
-Box.propTypes = {
+Image.displayName = 'Image'
+Image.propTypes = {
   ...space.propTypes,
   ...width.propTypes
 }
 
-export default Box
+export default Image
