@@ -32,8 +32,5 @@ Text.propTypes = {
   ...propTypes.lineHeight,
   ...propTypes.textAlign
 }
-Text.defaultProps = {
-  is: 'p'
-}
 
 export default Text
