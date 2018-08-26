@@ -2,14 +2,12 @@
   "name": "standard-components.com",
   "private": true,
   "scripts": {
-    "start": "ok ../README.md -o",
-    "build": "ok ../README.md -d . --static"
+    "start": "mdx-go src",
+    "build": "mdx-go build src -d ."
   },
-  "devDependencies": {
-    "grid-styled": "^3.2.1",
-    "ok-cli": "^1.0.0-11",
-    "react": "^16.3.1",
-    "styled-components": "^3.2.5",
-    "styled-system": "^2.2.1"
+  "devDependencies": {},
+  "dependencies": {
+    "mdx-go": "^1.0.4",
+    "mdx-themes": "^1.0.0-0"
   }
 }
