@@ -15,8 +15,6 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "scripts": {
-    "start": "ok README.md -o",
-    "build": "ok README.md -d site --static",
     "prepare": "lerna bootstrap",
     "test": "lerna run test"
   },
